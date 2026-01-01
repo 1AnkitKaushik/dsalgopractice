@@ -3,5 +3,5 @@ package strings;
 
 
 public class Substrings {
-    System.out.println("new changes");
+   // System.out.println("new changes");
 }
