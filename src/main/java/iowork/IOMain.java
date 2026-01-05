@@ -8,5 +8,10 @@ public class IOMain {
         //new question
         String location1="D:\\coderepos\\resources\\1\\1.txt";
         fc.createFileAtLocation(location1);
+        String location1="D:\\coderepos\\resources\\1\\1.txt";
+
+        String location2="D:\\coderepos\\resources\\1\\1.txt";
+        String location3="D:\\coderepos\\resources\\1\\1.txt";
+        String location4="D:\\coderepos\\resources\\1\\4\\1.txt";
     }
 }
