@@ -10,6 +10,8 @@ public class GeneralMain {
         System.out.println("Enter the no of days:");
         int i=sc.nextInt();
         System.out.println("Total amount of money after "+i+" days: "+ NinjaBank.totalAmount(i));
+        //Question2
+       // System.out.println("Enter the no of days:");
 
     }
 }
