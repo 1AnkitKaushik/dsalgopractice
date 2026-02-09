@@ -14,10 +14,12 @@ public class DataReportCreator extends ReportCreator {
         StringBuilder sb=new StringBuilder();
        // System.out.println(tObject.setConfigMap((Map<String, String>) dataList.get(1)));
        // sb.append(dataList);
-        //for (User u : users) { sb.append(u.id).append(" ") .append(u.name).append(" ") .append(u.age).append("\n"); }
+
         for(Data d: dataList){
             sb.append(d.getUserID()).append(",").append(d.getUserName()).append(",").append(d.getAge()).append("\n");
         }
+
+
         try (FileWriter writer = new FileWriter("users.txt")) {
             writer.write(sb.toString());
             System.out.println("PrintWrite");
@@ -25,6 +27,10 @@ public class DataReportCreator extends ReportCreator {
         catch (IOException e) {
             e.printStackTrace();
         }
+
+        StringBuilder sb1 =new StringBuilder();
+
+        //tObject.setConfigMap((Map<String, String)
     }
 
 }

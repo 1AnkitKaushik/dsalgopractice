@@ -16,6 +16,11 @@ public class Data {
         this.userID = userID;
     }
     public boolean equals(Object o){
+        if (o == null) return false;
+       // this.getClass() == o.getClass()
+        if (!(o.getClass() == Data.class)){
+            return false;
+        }
         //List<Data> l1 =new ArrayList<>();
        // Data tempD1 = new Data();
 
